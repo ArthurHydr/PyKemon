@@ -47,19 +47,19 @@ class PokemonFogo(Pokemon):
     tipo = "fogo"
 
     def atacar(self, pokemon):
-        print("{} lançou uma bola de fogo na cabeça de {}".format(self, pokemon))
+        print(f"{self} lançou uma bola de fogo na cabeça de {pokemon}")
         return super().atacar(pokemon)
-
 
 class PokemonAgua(Pokemon):
     tipo = "água"
 
     def atacar(self, pokemon):
-        print("{} lançou um jato d'água em {}".format(self, pokemon))
+        print(f"{self} lançou um jato d'água em {pokemon}")
         return super().atacar(pokemon)
+        
 class PokemonPlanta(Pokemon):
     tipo = "planta"
 
     def atacar(self, pokemon):
-        print("{} lançou Overgrow em {}".format(self, pokemon))
+        print(f"{self} lançou Overgrow em {pokemon}")
         return super().atacar(pokemon)
