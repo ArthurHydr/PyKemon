@@ -17,6 +17,7 @@ POKEMONS = [
     PokemonEletrico("Raichu"),
     PokemonAgua("Squirtle"),
     PokemonAgua("Magicarp"),
+    PokemonPlanta("Bulbasaur")
 ]
 
 
