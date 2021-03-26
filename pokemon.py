@@ -63,3 +63,101 @@ class PokemonPlanta(Pokemon):
     def atacar(self, pokemon):
         print(f"{self} lançou Overgrow em {pokemon}")
         return super().atacar(pokemon)
+
+class PokemonInseto(Pokemon):
+    tipo = "inseto"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou uma picada em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonNormal(Pokemon):
+    tipo = "normal"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou uma patada em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonEscuro(Pokemon):
+    tipo = "escuro"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou uma magia negra em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonVenenoso(Pokemon):
+    tipo = "venenoso"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou um veneno em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonChao(Pokemon):
+    tipo = "chao"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou um golpe em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonGelo(Pokemon):
+    tipo = "gelo"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou um raio de gelo em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonFada(Pokemon):
+    tipo = "fada"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou um encanto em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonAco(Pokemon):
+    tipo = "aco"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou uma pedra de aço em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonLutador(Pokemon):
+    tipo = "lutador"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou uma rasteira em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonPsiquico(Pokemon):
+    tipo = "psiquico"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou uma confusão em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonPedra(Pokemon):
+    tipo = "pedra"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou um pedregulho em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonFantasma(Pokemon):
+    tipo = "fantasma"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou uma maldição em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonDragao(Pokemon):
+    tipo = "dragão"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou uma chama de fogo em {pokemon}")
+        return super().atacar(pokemon)
+
+class PokemonVoador(Pokemon):
+    tipo = "voador"
+
+    def atacar(self, pokemon):
+        print(f"{self} lançou um golpe aéreo em {pokemon}")
+        return super().atacar(pokemon)
