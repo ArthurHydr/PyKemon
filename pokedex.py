@@ -841,7 +841,6 @@ POKEMONS = [
     PokemonFada("Zacian"),
     PokemonFada("Zacian"),
     PokemonLutador("Zamazenta"),
-    PokemonLutador("Zamazenta"),
     PokemonVenenoso("Eternatus"),
     PokemonLutador("Kubfu"),
     PokemonLutador("Urshifu"),
@@ -852,6 +851,5 @@ POKEMONS = [
     PokemonGelo("Glastrier"),
     PokemonFantasma("Spectrier"),
     PokemonPsiquico("Calyrex"),
-    PokemonPsiquico("Calyrex"),
-    PokemonPsiquico("Calyrex")
+    PokemonPlanta("Calyrex"),
 ]
