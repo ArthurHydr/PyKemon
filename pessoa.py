@@ -1,24 +1,7 @@
 import random
 
 from pokemon import *
-
-NOMES = [
-    "Arthur", "Rafaella", "Matan", "Gentil", "Pedro", "Caroba", "João",
-    "Francisco", "Ricardo", "Diego", "Patrícia", "Marcelo", "Gustavo",
-    "Gerônimo", "Gary", "Isabela", "Lorena"
-]
-
-POKEMONS = [
-    PokemonFogo("Charmander"),
-    PokemonFogo("Charmilion"),
-    PokemonFogo("Charizard"),
-    PokemonFogo("Flarion"),
-    PokemonEletrico("Pikachu"),
-    PokemonEletrico("Raichu"),
-    PokemonAgua("Squirtle"),
-    PokemonAgua("Magicarp"),
-    PokemonPlanta("Bulbasaur")
-]
+from pokedex import *
 
 
 class Pessoa:
