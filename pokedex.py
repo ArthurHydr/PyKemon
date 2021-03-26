@@ -1,9 +1,7 @@
 from pokemon import *
 
 NOMES = [
-    "Arthur", "Rafaella", "Matan", "Gentil", "Pedro", "Caroba", "João",
-    "Francisco", "Ricardo", "Diego", "Patrícia", "Marcelo", "Gustavo",
-    "Gerônimo", "Gary", "Isabela", "Lorena"
+    "Arthur", "Rafaella", "Matan", "Gentil", "Pedro", "Caroba", "Gary", "Zap"
 ]
 
 POKEMONS = [
